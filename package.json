@@ -1,0 +1,29 @@
+{
+  "name": "angularseed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "start": "http-server -a localhost -p 8000",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-serve": "^0.1.6",
+    "grunt-ts": "^6.0.0-beta.15",
+    "install": "^0.8.7",
+    "npm": "^4.3.0",
+    "sass": "^0.5.0",
+    "typescript": "^2.2.1",
+    "typings": "^2.1.0"
+  },
+  "dependencies": {
+    "@types/angular": "^1.6.7"
+  }
+}
