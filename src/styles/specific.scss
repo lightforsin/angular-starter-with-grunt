@@ -1,9 +1,11 @@
 $border-color: #acacac;
 $div-width: 420px;
 $div-height: 100px;
+$div-bg-color: #ffaa55;
 
 div {
     border: solid 1px $border-color;
     width: $div-width;
     height: $div-height;
+    background-color: $div-bg-color;
 }

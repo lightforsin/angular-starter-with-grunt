@@ -18,7 +18,7 @@ module.exports = function(grunt) {
       },
       build: {
         src: 'src/**/*.js',
-        dest: 'build/app.min.js'
+        dest: 'build/js/app.min.js'
       }
     },
     ts: {
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          'build/main.css': 'src/styles/main.scss'
+          'build/css/main.css': 'src/styles/main.scss'
         }
       }
     },
