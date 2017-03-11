@@ -1,4 +1,4 @@
-testApp.controller('testController', ['$scope', function($scope) {
-	$scope.name = 'Thomas';
-	$scope.age = 28;
+testApp.controller("testController", ["$scope", function($scope) {
+	$scope.name = "Stanley Adams";
+	$scope.age = 30;
 }]);

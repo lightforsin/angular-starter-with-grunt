@@ -1,0 +1,9 @@
+$border-color: #acacac;
+$div-width: 420px;
+$div-height: 100px;
+
+div {
+    border: solid 1px $border-color;
+    width: $div-width;
+    height: $div-height;
+}
