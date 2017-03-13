@@ -1,7 +1,7 @@
-$primaryColor: green;
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #000;
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: $primaryColor;
-    font-size: 14px;
+  font: 100% $font-stack;
+  color: $primary-color;
 }
